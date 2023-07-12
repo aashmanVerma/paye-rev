@@ -84,12 +84,12 @@ export default function Land() {
                     <span className="font-semibold text-xl md:text-2xl lg:text-3xl">Effortless Payroll Management and Employee Tracking</span>
                     <span className="hidden text-base md:text-xl lg:block">Join with us today!</span>
                     <div className="hidden lg:flex lg:gap-x-2 lg:justify-center">
-                            <Link href="/auth/singup">
-                                <Button>Sign Up</Button>
-                            </Link>
-                            <Link href="/auth/login">
-                                <Button>Log In</Button>
-                            </Link>
+                            <Button>
+                                <Link href="/auth/singup">Sign up</Link>
+                            </Button>
+                            <Button>
+                                <Link href="/auth/login">Log in</Link>
+                            </Button>
                     </div>
                     <div className="hidden social-link lg:flex gap-x-3 mt-8 justify-center">
                         <div className="">
@@ -116,8 +116,12 @@ export default function Land() {
                 <div className="text-center lg:hidden flex flex-col gap-y-2 my-4">
                     <span className="lg:hidden text-base md:text-xl block">Join with us today!</span>
                     <div className="lg:hidden flex gap-x-2 justify-center">
-                        <Button>Sign Up</Button>
-                        <Button>Log In</Button>
+                            <Button>
+                                <Link href="/auth/singup">Sign up</Link>
+                            </Button>
+                            <Button>
+                                <Link href="/auth/login">Log in</Link>
+                            </Button>
                     </div>
                     <div className="social-link flex gap-x-3 mt-6 justify-center">
                         <div className="">
